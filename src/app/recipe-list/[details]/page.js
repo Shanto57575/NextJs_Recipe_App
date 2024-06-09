@@ -1,6 +1,4 @@
 import ShowRecipeDetails from "@/components/recipe-details"
-import { Badge } from "@/components/ui/badge"
-import Link from "next/link"
 
 const fetchSingleRecipe = async (recipeId) => {
     try {

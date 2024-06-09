@@ -4,7 +4,7 @@ import React from 'react'
 const RecipeList = ({ recipeList }) => {
     console.log(recipeList)
     return (
-        <div className='mx-3 lg:mx-0'>
+        <div className="max-w-6xl mx-auto">
             <h1 className='text-center text-4xl font-serif my-5'>RecipeList</h1>
             <Link href={'/'}><button className='px-5 py-2.5 text-sm mb-4 font-serif rounded-md bg-black text-cyan-400 hover:bg-white hover:border hover:text-black border-black duration-500'>{`Back to Home`}</button></Link>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
