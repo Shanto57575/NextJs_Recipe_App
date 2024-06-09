@@ -3,7 +3,7 @@ import { Badge } from '../ui/badge'
 
 const ShowRecipeDetails = ({ foodDetails }) => {
     return (
-        <section className="w-full md:max-w-6xl mx-3 md:mx-auto">
+        <section className="md:max-w-6xl mx-auto">
             <h1 className="text-3xl my-5 font-bold font-serif text-zinc-800 text-center"> {foodDetails.name} Details</h1>
             <Link href={'/recipe-list'}><button className='px-5 py-2.5 text-sm mb-4 font-serif rounded-md bg-black text-cyan-400 hover:bg-white hover:border hover:text-black border-black duration-500'>Back To Recipes</button></Link>
             <article className="lg:flex gap-9">
